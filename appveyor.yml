@@ -9,7 +9,7 @@ install:
   - pip.exe install conan
 
   - mkdir build && cd build
-
+  - conan remote add conan.io https://server.conan.io 
   - conan install .. --build=missing -s build_type=%BUILD_TYPE% -s compiler="Visual Studio" -s compiler.version=%TOOLCHAIN_VERSION%
 
 
