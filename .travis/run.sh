@@ -35,7 +35,7 @@ fi
 mkdir build 
 cd build
 
-conan remote add conan.io https://server.conan.io
+conan remote update conan.io https://server.conan.io
 
 conan install .. -s build_type=$BUILD_TYPE --build=missing
 
