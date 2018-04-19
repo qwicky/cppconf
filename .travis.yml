@@ -10,7 +10,7 @@ install:
 
 script:
 
-  - ./.travis/run.sh
+  - bash ./.travis/run.sh
 
 env:
 
