@@ -32,7 +32,8 @@ fi
 
 
 
-mkdir build && cd build
+mkdir build 
+cd build
 
 conan install .. -s build_type=$BUILD_TYPE --build=missing
 
