@@ -8,3 +8,13 @@ script:
   - cmake ..
   - cmake --build .
   - ./hello
+
+env:
+    - COMPILER=g++-6
+
+addons:
+    apt:
+        source:
+            - ubuntu-toolchain-r-test
+        packages:
+            - g++-6
