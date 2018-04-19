@@ -10,11 +10,11 @@ script:
   - ./hello
 
 env:
-    - COMPILER=g++-6
+  - COMPILER=g++-6
 
 addons:
   apt:
-   source:
-    - ubuntu-toolchain-r-test
-   packages:
-    - g++-6
+     source:
+        - ubuntu-toolchain-r-test
+     packages:
+        - g++-6
